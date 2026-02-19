@@ -15,7 +15,7 @@ export default function Home() {
             <div className="relative -mt-32 z-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto mb-24">
                 <Stats />
             </div>
-            <Gallery />
+            {/* <Gallery /> */}
             <MapPreview />
             <ProcessFlow />
             <Footer />
