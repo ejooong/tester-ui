@@ -15,5 +15,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "./", // Ensure relative paths for assets on deployment
+  base: "/", // Use absolute paths for Vercel SPA deployment
 })
